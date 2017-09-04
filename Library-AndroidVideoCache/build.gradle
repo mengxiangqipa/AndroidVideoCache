@@ -1,3 +1,5 @@
+apply plugin: 'com.android.library'
+
 buildscript {
     repositories {
         jcenter()
@@ -6,8 +8,6 @@ buildscript {
         classpath 'com.novoda:bintray-release:0.4.0'
     }
 }
-
-apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
@@ -28,4 +28,5 @@ android {
 
 dependencies {
     compile 'org.slf4j:slf4j-android:1.7.21'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
 }
