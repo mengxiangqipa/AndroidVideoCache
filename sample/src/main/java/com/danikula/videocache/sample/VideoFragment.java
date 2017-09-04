@@ -98,6 +98,8 @@ public class VideoFragment extends Fragment implements CacheListener {
     void seekVideo() {
         int videoPosition = videoView.getDuration() * progressBar.getProgress() / 100;
         videoView.seekTo(videoPosition);
+        Log.e("yy","videoView.getDuration():"+videoView.getDuration());
+        Log.e("yy","videoPosition:"+videoPosition);
     }
 
     private void setCachedState(boolean cached) {

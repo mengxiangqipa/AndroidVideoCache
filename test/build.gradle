@@ -58,7 +58,7 @@ tasks.withType(Test) {
 }
 
 dependencies {
-    compile project(':library')
+    compile project(':Library-AndroidVideoCache')
     testCompile 'org.slf4j:slf4j-simple:1.7.21'
     testCompile 'junit:junit:4.12'
     testCompile 'org.robolectric:robolectric:3.3.2'

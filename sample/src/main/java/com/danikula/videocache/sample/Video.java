@@ -16,5 +16,5 @@ public enum Video {
 
     private class Config {
         private static final String ROOT = "https://raw.githubusercontent.com/danikula/AndroidVideoCache/master/files/";
-    }
+}
 }
