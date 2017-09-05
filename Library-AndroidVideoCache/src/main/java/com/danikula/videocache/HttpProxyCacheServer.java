@@ -181,6 +181,10 @@ public class HttpProxyCacheServer {
         }
     }
 
+    /**
+     * 检查是否能ping通，设备网络使用代理不能ping通
+     * @return boolean
+     */
     private boolean isAlive() {
         return pinger.ping(3, 70);   // 70+140+280=max~500ms
     }
